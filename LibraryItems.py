@@ -1,4 +1,3 @@
-import json
 class LibraryItem:
     def __init__(self,title, author, item_id):
         self.title=title
