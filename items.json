@@ -1,0 +1,67 @@
+{
+  "items": [
+    {
+      "type": "Book",
+      "item_id": "B001",
+      "title": "Clean Code",
+      "author": "Robert C. Martin",
+      "genre": "Programming",
+      "pages": 431,
+      "is_available": true
+    },
+    {
+      "type": "Book",
+      "item_id": "B002",
+      "title": "Python Crash Course",
+      "author": "Eric Matthes",
+      "genre": "Programming",
+      "pages": 544,
+      "is_available": false
+    },
+    {
+      "type": "Book",
+      "item_id": "B003",
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
+      "genre": "Fiction",
+      "pages": 208,
+      "is_available": true
+    },
+    {
+      "type": "Magazine",
+      "item_id": "M001",
+      "title": "National Geographic",
+      "author": "Various",
+      "issue_number": 47,
+      "month": "March 2025",
+      "is_available": true
+    },
+    {
+      "type": "Magazine",
+      "item_id": "M002",
+      "title": "Time",
+      "author": "Various",
+      "issue_number": 12,
+      "month": "January 2025",
+      "is_available": false
+    },
+    {
+      "type": "DVD",
+      "item_id": "D001",
+      "title": "Interstellar",
+      "author": "Various",
+      "director": "Christopher Nolan",
+      "duration_mins": 169,
+      "is_available": true
+    },
+    {
+      "type": "DVD",
+      "item_id": "D002",
+      "title": "The Social Network",
+      "author": "Various",
+      "director": "David Fincher",
+      "duration_mins": 120,
+      "is_available": true
+    }
+  ]
+}
