@@ -1,2 +1,0 @@
-#ignore the junk file
-__pycache__/
