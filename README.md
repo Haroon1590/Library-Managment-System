@@ -1,4 +1,4 @@
-Mainly started this project to be comfortable with python and its basic synatx, classes, inheritace , abstracting, encapsulation and file handling.
+Mainly started this project to be comfortable with python and its basic synatx, classes, inheritace , abstraction, encapsulation and file handling.
 
 Here is a brief summary of what each file in this project has
 
