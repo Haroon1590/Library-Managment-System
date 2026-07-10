@@ -9,7 +9,6 @@ class Member:
     def remove_borrowed(self,item_id):
         self.borrowed_items.remove(item_id)
     def to_dict(self):
-        return self.__dict__
+        return dict(self.__dict__)
     def __str__(self):
         return f"Name : {self.name}\nMember ID : {self.member_id}\nBorrowed items : {self.borrowed_items}"
-        

@@ -19,7 +19,9 @@ class LibraryItem:
         self.is_available=True
 
     def to_dict(self):
-        return self.__dict__
+        return dict(self.__dict__)
+    
+    
     
 class Book(LibraryItem):
     def __init__(self, title, author, item_id, genre, pages):
@@ -30,7 +32,7 @@ class Book(LibraryItem):
     def __str__(self):
         return super().__str__()+f"\nGenre : {self.genre}  \nPages : {self.pages} \nAvailabillity : {self.is_available}"
     
-class Magzine(LibraryItem):
+class Magazine(LibraryItem):
     def __init__(self, title, author, item_id, issue_number, month):
         super().__init__(title, author, item_id)
         self.issue_number=issue_number
@@ -47,5 +49,3 @@ class DVD(LibraryItem):
     
     def __str__(self):
         return super().__str__()+f"\nDirector :{self.director}\nDuration : {self.duration_mins}\nAvailabillity : {self.is_available}"
-    
-
