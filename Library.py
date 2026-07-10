@@ -241,3 +241,4 @@ def library_menu():
 
 
 library_menu()
+print("Congratulations! You have successfully exited!.")
